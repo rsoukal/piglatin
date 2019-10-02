@@ -82,7 +82,7 @@ public class PigLatinTranslator {
 	
 	private String applyRules(String word) {
 		// apply modifying rules
-		if (word.endsWith("way")) { 
+		if (word.endsWith("way") || word.matches("[0-9].*")) { 
 			// do nothing
 		} else if (word.matches("[aeiouy].*")) {
 			// word start with a vowel

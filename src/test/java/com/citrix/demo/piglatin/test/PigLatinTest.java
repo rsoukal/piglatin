@@ -42,6 +42,8 @@ public class PigLatinTest {
 			{" . ", " . "},
 			{" a ", " away "},
 			{"s", "say"},
+			{"1s", "1s"},
+			{" 500 ", " 500 "},
 			{"Hello", "Ellohay"},
 			{"apple", "appleway"},
 			{"stairway", "stairway"},
